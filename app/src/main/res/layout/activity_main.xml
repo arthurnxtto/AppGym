@@ -16,9 +16,13 @@
         android:text="Escolha os exercicios"
         android:textColor="#FF5722"
         android:textSize="25sp"
-        android:textStyle="bold"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idListaExercicios"
+        android:layout_margin="5dp"/>
 
-        />
 
 
 </LinearLayout>
